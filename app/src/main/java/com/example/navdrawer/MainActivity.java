@@ -100,6 +100,7 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_inicio) {
             // Handle the camera action
+
         } else if (id == R.id.nav_iniciar_sesion) {
             Intent intent = new Intent(this, LoginActivity.class);
             startActivity(intent);
