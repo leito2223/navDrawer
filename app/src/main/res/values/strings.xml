@@ -54,4 +54,5 @@
     <!-- Strings related to login -->
     <string name="prompt_email">  Email</string>
     <string name="prompt_password">  Contraseña </string>
+    <string name="Terminos">Acepto las <a>condiciones legales</a> y la <a>política de privacidad</a></string>
 </resources>

@@ -106,7 +106,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
 
         } else if (id == R.id.nav_registrarse) {
-
+            Intent intent1 = new Intent(this, RegistroActivity.class);
+            startActivity(intent1);
         } else if (id == R.id.nav_sel_centro) {
 
         }
