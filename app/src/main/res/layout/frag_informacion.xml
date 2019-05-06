@@ -14,17 +14,21 @@
 
 
     <TextView
-        android:layout_width="392dp"
+        android:layout_width="382dp"
         android:layout_height="146dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:lineSpacingExtra="14sp"
         android:text="@string/Descripcion"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/common_google_signin_btn_text_dark_focused"
         android:textSize="18dp"
         app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

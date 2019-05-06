@@ -8,9 +8,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo_barbero02"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/logo_barbero02"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -36,7 +36,7 @@
 
         <activity
                 android:name=".CentroActivity"
-                android:label="@string/title_activity_centro"
+                android:label="@string/app_name"
                 android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

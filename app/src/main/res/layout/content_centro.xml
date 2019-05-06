@@ -43,9 +43,13 @@
         android:layout_marginStart="136dp"
         android:layout_marginLeft="136dp"
         android:layout_marginTop="280dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="@color/colorAccent"
         android:text="El Barbero Heredia"
         android:textColor="#FFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -56,9 +60,13 @@
         android:layout_marginStart="112dp"
         android:layout_marginLeft="112dp"
         android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:background="@color/colorAccent"
         android:text="El Barbero Santa Ana"
         android:textColor="#FFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" /><![CDATA[
@@ -85,12 +93,16 @@
         android:layout_marginStart="140dp"
         android:layout_marginLeft="140dp"
         android:layout_marginTop="112dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+
         android:text="@string/VServicio"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-
         android:textColor="@color/colorBlanco"
         android:textSize="20dp"
         app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -101,12 +113,16 @@
         android:layout_marginStart="144dp"
         android:layout_marginLeft="144dp"
         android:layout_marginTop="348dp"
-        android:text="@string/VServicio"
+        android:layout_marginEnd="8dp"
 
+        android:layout_marginRight="8dp"
+        android:text="@string/VServicio"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/colorBlanco"
         android:textSize="20dp"
         app:fontFamily="sans-serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
