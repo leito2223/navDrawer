@@ -5,6 +5,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
+    <string name="DescripcionHeredia"> <b>DESCRIPCIÓN </b> \nSomos una franquicia de barberías premium. Estamos ubicados en Santa Ana y Heredia. \nReservas Whatsapp: 7254:6713</string>
+    <string name="NumeroHeredia"><a href=""><b>  22609777</b></a></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="Descripcion"> <b>DESCRIPCIÓN </b> \nSomos una franquicia de barberías premium. Estamos ubicados en Santa Ana y Heredia. \nReservas Whatsapp: 7222:4014</string>
     <string name="Contacto"><b>CONTACTO</b></string>
@@ -20,7 +22,7 @@
         <b>Domingo: </b>
     </string>
     <string name="Numeros">
-        \n11:00-21:00 \n
+        \n 11:00-21:00 \n
         11:00-21:00\n
         11:00-21:00 \n
         11:00-21:00 \n
@@ -56,4 +58,11 @@
     <string name="prompt_email">  Email</string>
     <string name="prompt_password">  Contraseña </string>
     <string name="Terminos">Acepto las <a>condiciones legales</a> y la <a>política de privacidad</a></string>
+    <string name="title_activity_registro">Registro</string>
+    <string name="title_activity_centro">Selecciona tu centro</string>
+    <string name="title_activity_restaurar">Restaurar contraseña</string>
+    <string name="title_activity_heredia">El Barbero Heredia</string>
+    <string name="title_activity_staAna">El Barbero Sta Ana</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
 </resources>

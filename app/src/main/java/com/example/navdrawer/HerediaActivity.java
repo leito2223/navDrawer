@@ -1,8 +1,8 @@
 package com.example.navdrawer;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
@@ -16,10 +16,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TableLayout;
-import android.content.Intent;
 
-public class MainActivity extends AppCompatActivity
+public class HerediaActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private TabLayout tablayout;
@@ -28,25 +26,25 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_heredia);
+
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT );
-        tablayout = findViewById(R.id.tab);
-        viewPager2 = findViewById(R.id.fragments);
+        tablayout = findViewById(R.id.tabHeredia);
+        viewPager2 = findViewById(R.id.fragmentsHeredia);
         ViewPagerAdapter adapter2 = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter2.AddFragment(new frag_servicios(),"SERVICIOS");
-        adapter2.AddFragment(new frag_informacion(),"INFORMACIÓN");
+        adapter2.AddFragment(new fragon_servicios_heredia(),"SERVICIOS");
+        adapter2.AddFragment(new frag_informacion_heredia(),"INFORMACIÓN");
         viewPager2.setAdapter(adapter2);
         tablayout.setupWithViewPager(viewPager2);
 
 
         //Imagenes
-        ViewPager viewPager = findViewById(R.id.viewPager);
-        ImageAdapter adapter = new ImageAdapter(this);
+        ViewPager viewPager = findViewById(R.id.viewPagerHeredia);
+        ImageAdapterHeredia adapter = new ImageAdapterHeredia(this);
         viewPager.setAdapter(adapter);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -71,7 +69,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.heredia, menu);
         return true;
     }
 

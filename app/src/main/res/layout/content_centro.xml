@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CentroActivity"
+    tools:showIn="@layout/activity_centro">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerStaAna"
+        android:layout_width="415dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerHeredia"
+        android:layout_width="418dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.656"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/buttonHeredia"
         android:layout_width="143dp"
         android:layout_height="40dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginLeft="128dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="280dp"
         android:background="@color/colorAccent"
         android:text="El Barbero Heredia"
         android:textColor="#FFFF"
@@ -25,15 +55,17 @@
         android:layout_height="40dp"
         android:layout_marginStart="112dp"
         android:layout_marginLeft="112dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="44dp"
         android:background="@color/colorAccent"
         android:text="El Barbero Santa Ana"
         android:textColor="#FFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/SantaAna" />
-    <ImageView
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" /><![CDATA[
+
+    ImageView
         android:id="@+id/Heredia"
-        android:layout_width="398dp"
+        android:layout_width="557dp"
         android:layout_height="163dp"
         android:layout_marginTop="4dp"
         android:adjustViewBounds="true"
@@ -42,25 +74,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/im8"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="6dp" />
+        tools:layout_editor_absoluteX="-116dp" />
 
-    <ImageView
-        android:id="@+id/SantaAna"
-        android:layout_width="398dp"
-        android:layout_height="136dp"
-        android:layout_marginTop="208dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/im2"
-        tools:layout_editor_absoluteX="6dp"
-        tools:ignore="MissingConstraints" />
+    ]]>
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textViewStaAna"
         android:layout_width="137dp"
         android:layout_height="35dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="112dp"
         android:text="@string/VServicio"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
 
@@ -71,19 +95,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textViewHeredia"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="348dp"
         android:text="@string/VServicio"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
 
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/colorBlanco"
         android:textSize="20dp"
         app:fontFamily="sans-serif"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/SantaAna" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>
