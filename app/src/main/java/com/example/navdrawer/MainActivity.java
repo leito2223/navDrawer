@@ -109,7 +109,8 @@ public class MainActivity extends AppCompatActivity
             Intent intent1 = new Intent(this, RegistroActivity.class);
             startActivity(intent1);
         } else if (id == R.id.nav_sel_centro) {
-
+            Intent intent1 = new Intent(this, CentroActivity.class);
+            startActivity(intent1);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

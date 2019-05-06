@@ -13,7 +13,8 @@
         android:roundIcon="@drawable/logo_barbero02"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegistroActivity"></activity>
+        <activity android:name=".CentroActivity"></activity>
+        <activity android:name=".RegistroActivity" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
