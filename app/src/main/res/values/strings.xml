@@ -34,7 +34,8 @@
     <string name="Barberia">  <b>BARBERÍA</b> 19  </string>
 
     <string-array name="Servicios">
-        <item>VIP Alisette</item>
+        <item>BARBERÍA</item>
+        <item> VIP Alisette</item>
         <item>VIP Beard Spa</item>
         <item>VIP Beard Trim</item>
         <item>VIP Beard Wax</item>

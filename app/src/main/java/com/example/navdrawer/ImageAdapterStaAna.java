@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class ImageAdapterStaAna extends PagerAdapter {
     private Context mContext;
-    private int[] mImageIds = new int[] {R.drawable.stana};
+    private int[] mImageIds = new int[] {R.drawable.im3};
 
     ImageAdapterStaAna(Context context){
         mContext = context;
