@@ -11,7 +11,7 @@ import com.example.navdrawer.R;
 
 public class ImageAdapterHeredia  extends PagerAdapter {
     private Context mContext;
-    private int[] mImageIds = new int[] {R.drawable.im8};
+    private int[] mImageIds = new int[] {R.drawable.heredia};
 
     ImageAdapterHeredia(Context context){
         mContext = context;
