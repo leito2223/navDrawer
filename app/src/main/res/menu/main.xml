@@ -3,11 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     >
-
-
     <item
-        android:id="@+id/media_route_menu_item"
-        android:title="Cast"
-        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
-        tools:icon="@drawable/mr_button_light" />
+        android:id="@+id/map"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:iconTint="@color/colorAccent"
+
+        android:title="map"
+        app:showAsAction="ifRoom"/>
 </menu>

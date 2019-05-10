@@ -66,4 +66,30 @@
     <string name="title_activity_staAna">El Barbero Sta Ana</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="title_activity_map_sta_ana">Map</string>
+    <string name="title_activity_map_heredia">Map</string>
+
+
+    <string name="bsa1"> <b>VIP Alisette                                      22.600.00</b> \n</string>
+    <string name="bsa2"><b>VIP Beard Spa                                      8.000.00</b>\n</string>
+    <string name="bsa3"><b>VIP Beard Trim                                      8.000.00</b>\n</string>
+    <string name="bsa4"><b>VIP Beard Wax                                      7.000.00</b>\n</string>
+    <string name="bsa5"><b>VIP Black Mask                                      6.000.00</b>\n</string>
+    <string name="bsa6"><b>VIP Comb                                           3.500.00</b>\n</string>
+    <string name="bsa7"><b>VIP Cut                                          10.000.00</b>\n</string>
+    <string name="bsa8"><b>VIP Cut and Shave                                      15.000.00</b>\n</string>
+    <string name="bsa9"><b>VIP Cut and Trim                                      15.000.00</b>\n</string>
+    <string name="bsa10"><b>VIP Facil Spa                                      15.000.00</b>\n</string>
+    <string name="bsa11"><b>VIP Keratine 1                                      23.730.00</b>\n</string>
+    <string name="bsa12"><b>VIP Keratine 2                                      33.900.00</b>\n</string>
+    <string name="bsa13"><b>VIP Keratine 3                                      22.600.00</b>\n</string>
+    <string name="bsa14"><b>VIP Keratine 4                                      22.600.00</b>\n</string>
+    <string name="bsa15"><b>VIP Kids                                      22.600.00</b>\n</string>
+    <string name="bsa16"><b>VIP Shave                                      22.600.00</b>\n</string>
+    <string name="bsa17"><b>VIP Tint Service                                      22.600.00</b>\n</string>
+    <string name="bsa18"><b>VIP Tint Service 2                                      22.600.00</b>\n</string>
+
+
+
+
 </resources>

@@ -8,6 +8,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.TextureView;
 import android.view.View;
 import android.widget.Button;
@@ -24,8 +25,9 @@ public class CentroActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_centro);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbarC);
         setSupportActionBar(toolbar);
+
         ViewPager viewPager = findViewById(R.id.viewPagerHeredia);
         ImageAdapterHeredia adapter = new ImageAdapterHeredia(this);
         viewPager.setAdapter(adapter);
@@ -69,5 +71,6 @@ public class CentroActivity extends AppCompatActivity {
             }
         });
     }
+
 
 }

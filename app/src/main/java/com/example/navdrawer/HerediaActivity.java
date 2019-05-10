@@ -81,8 +81,9 @@ public class HerediaActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.mapH) {
+            Intent i = new Intent(HerediaActivity.this, mapHeredia.class );
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
